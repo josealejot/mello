@@ -1529,6 +1529,87 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--laser-orange);
 }
 
+.contact-link {
+  color: #ffaa00;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast);
+}
+
+.contact-link:hover {
+  color: var(--laser-orange);
+}
+
+.instagram-link {
+  color: #e1306c;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.instagram-link:hover {
+  color: #ff5483;
+}
+
+.footer-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.btn-instagram-footer {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  border: none;
+  box-shadow: 0 4px 15px rgba(220, 39, 67, 0.35);
+  transition: all var(--transition-fast);
+}
+
+.btn-instagram-footer:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 39, 67, 0.55);
+}
+
+.top-bar-link {
+  color: #ffaa00;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+.top-bar-link:hover {
+  color: #ff5500;
+}
+
+.btn-nav-ig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-subtle);
+  color: #e1306c;
+  transition: all var(--transition-fast);
+}
+
+.btn-nav-ig:hover {
+  background: linear-gradient(45deg, #f09433, #dc2743, #bc1888);
+  color: #ffffff;
+  border-color: transparent;
+  transform: scale(1.08);
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   padding: 20px 0;
