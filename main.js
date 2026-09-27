@@ -140,7 +140,7 @@ function initLaserSimulator() {
     };
     
     const selectedPart = readableParts[simPartSelect.value] || 'Pieza de Moto';
-    const phone = '573193205804';
+    const phone = '573229021925';
     
     // Mensaje limpio con formato nativo de WhatsApp (negritas y saltos de línea)
     const message = `¡Hola Marca Láser CZ! 🏍️⚡\n\nProbé el simulador en su página web y quiero cotizar la marcación de mi *${selectedPart}*.\n\n📌 *Grabado deseado:* "${textVal}"\n📍 *Ubicación:* Medellín\n\n¿Qué precio tiene este trabajo y cuándo podría pasar por el taller?`;
