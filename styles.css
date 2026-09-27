@@ -852,12 +852,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-.media-annotation {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  color: #79869c;
-  line-height: 1.4;
-}
 
 .lead-text {
   font-size: 1.05rem;
@@ -1316,12 +1310,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px;
 }
 
-.process-media-note {
-  font-size: 0.85rem;
-  color: #79869c;
-  max-width: 700px;
-  margin: 0 auto;
-}
 
 /* ==================== SECCIÓN 5: FAQ ==================== */
 .faq-section {
